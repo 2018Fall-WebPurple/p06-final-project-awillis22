@@ -1,0 +1,163 @@
+/*
+* Alex Willis 
+* January 7, 2018
+* Anne Frank Project 
+*/
+
+/* The universal selector */
+
+* {margin: 0; 
+   padding: 0; 
+} 
+
+/* Body attributes here */
+
+body {
+    width: 94%;
+    background-color: white;
+    margin: 15px auto; 
+    font-family: sans-serif, arial, serif; 
+}
+
+/* padding and color for all h1 */
+h1 {
+    padding: 10px; 
+    color: #002b80;   
+}
+
+header { 
+    border-bottom: 3px solid black;
+    text-align: center;
+    background-color: #e6eeff; 
+    padding-bottom: 5px;
+}
+
+#sidebarA {
+    width: 20%; 
+    float: left;  
+    height: 775px; 
+    padding-right: 50px; 
+    padding-left: 10px; 
+    background-color: #ffffe6; 
+    padding-top: 10px; 
+}
+
+main {
+    width: 50%;  
+    text-align: justify;
+    float: left; 
+    margin: 5px #ffffe6;
+    background-color: #ffffe6; 
+    height: 775px; 
+    padding-top: 10px; 
+}
+
+#sidebarB {
+    width: 20%;  
+    float: right;  
+    height: 775px; 
+    background-color: #ffffe6; 
+    padding-right: 75px;
+    padding-top: 10px; 
+}
+
+footer { 
+    clear: both; 
+    border-top: 3px solid black; 
+    background-color: #e6eeff; 
+}
+
+/* text align right for the disclaimer */ 
+#disclaimer {
+    text-align: right; 
+}
+
+#Anne-Frank {
+    width: 200px; 
+    height: 300px;    
+    text-align: center; 
+    margin-left: 90px;  
+    border: 1px solid #002b80;
+}
+
+#family {
+    width: 250px; 
+    height: 150px; 
+    margin-left: 60px; 
+    border: 1px solid #002b80;
+}
+
+#diary { 
+    width: 250px; 
+    height: 150px;  
+    margin-left: 60px; 
+    text-align: center;  
+    border: 1px solid #002b80;
+}
+
+#text {
+    text-align: center; 
+    padding-left: 95px; 
+    padding-bottom: 5px; 
+}
+
+h1 {
+    text-align: center; 
+    color: #002b80; 
+    padding-bottom: 10px; 
+}
+
+#picture2 {
+    width: 200px; 
+    height: 300px; 
+    margin-left: 10px; 
+    border: 1px solid #002b80; 
+}
+
+#sources {
+    text-align: left;
+    margin-bottom: 10px; 
+    color: #002b80; 
+    margin-left: 10px;
+    padding-top: 10px; 
+}
+
+/* margins for the paragraphs in the timeline section */ 
+.side_p {
+    margin-bottom: 15px; 
+}
+
+#link {
+    margin-left: 20px;
+    margin-bottom: 10px; 
+}
+
+#link2 {
+    margin-left: 20px; 
+}
+
+#caption2 {
+    margin-left: 35px; 
+}
+
+#timeline {
+    padding-left: 0px; 
+}
+
+/* margins for the paragraph in the main section */ 
+#paragraph{
+    margin-bottom: 10px;  
+}
+
+#pic {
+    padding-left: 110px; 
+}
+
+/* color of links when you hover and focus */
+a:hover, a:focus {color: #6666ff; 
+}
+
+/* color of links */
+a {
+    color: #002b80; 
+}
